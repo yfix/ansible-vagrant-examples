@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "geerlingguy/ubuntu1404"
-  config.vm.network :private_network, ip: "192.168.33.39"
+  config.vm.network :private_network, ip: "192.168.33.139"
   config.ssh.insert_key = false
 
   config.vm.provider :virtualbox do |v|
